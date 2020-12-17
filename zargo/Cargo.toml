@@ -29,9 +29,9 @@ Inflector = "0.11"
 tokio = "0.2"
 reqwest = "0.10"
 
-zksync = { git = "ssh://git@github.com/matter-labs/zksync-dev", branch = "dev" }
-zksync_types = { git = "ssh://git@github.com/matter-labs/zksync-dev", branch = "dev" }
-zksync_eth_signer = { git = "ssh://git@github.com/matter-labs/zksync-dev", branch = "dev" }
+zksync = { git = "https://github.com/matter-labs/zksync", rev = "92bd14217f2cc64d17c742233de4db14425fc867" }
+zksync_types = { git = "https://github.com/matter-labs/zksync", rev = "92bd14217f2cc64d17c742233de4db14425fc867" }
+zksync_eth_signer = { git = "https://github.com/matter-labs/zksync", rev = "92bd14217f2cc64d17c742233de4db14425fc867" }
 num_old = { package = "num", version = "0.2.1" }
 
 zinc-logger = { path = "../zinc-logger" }

@@ -8,3 +8,6 @@ incremental = true
 warn = [
     "missing_docs_in_private_items",
 ]
+
+[net]
+git-fetch-with-cli = true
